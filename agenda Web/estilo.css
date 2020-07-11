@@ -1,0 +1,262 @@
+body {
+    background: no-repeat;
+    background-size: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.7);   
+    align-items: center;
+    align-content: center;
+    width: 100%;
+    justify-content: space-between;
+    top: 0;
+    left: 0;
+}
+
+.sesion01 h3{
+    color: white;
+    text-align: right;
+    margin-right: 2cm;
+}
+
+.sesion02 {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    width: 40%;
+    height: 40%;
+}
+
+.sesion02 div{
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    border-radius: 5px;
+}
+
+.sesion02 div h1{
+    color: rgba(255,255,255, 1);
+    font-size: 30px;
+    text-align: center;
+}
+
+.sesion02 div img{
+    margin-top: -75px;
+    margin-bottom: 20px;
+    width: 25%;
+    }
+
+.formulario {
+    width: 70%;
+}
+
+.formulario p{
+    color: rgba(255,255,255, 1);
+    font-size: 15px;
+    text-align: left;
+}
+
+.formulario input {
+    outline: 0;
+    box-shadow: 0;
+    border: 0;
+    background-color:rgba(255, 255, 255, 0.1);
+    width: 100%;
+    margin-bottom: 35px;
+    height: 30px;
+    border: solid 2px rgba(255, 255, 255, 0.5);
+    font-size: 20px;
+    color: #fff;
+    border-radius: 5px;
+    text-align: left;
+}
+
+.formulario button{
+    outline: 0;
+    width: 100%;
+    height: 30px;
+    font-size: 22px;
+    border: 0;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.001);
+    border-bottom: solid 1px white;
+    margin-top: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: rgba(255,255,255, 1);
+}
+
+.contactos01 h3, 
+.agregarcontacto01 h3, 
+.miperfil01 h3 , 
+.detalles01 h3{
+    color: rgba(255,255,255, 1);
+    margin-left: 2cm;
+    margin-right: 2cm;
+}
+
+.contactos02 {  
+    margin-top: 100px;
+    background-color: rgba(0, 0, 0, 0.8);
+    align-items: center;
+    align-content: center;
+    border-radius: 5px;
+    width: 50%;
+}
+
+.contactos02 h3, 
+.agregarcontacto02 h3{
+    color: rgba(255,255,255, 1);
+    text-align: center;
+    font-size: 30px;
+}
+
+.contactos02 table, 
+.tblmiperfil , 
+.tbldetalles {
+    color: rgba(255,255,255, 1);
+    width: 90%;
+    border-radius: 5px;
+    border-spacing: 15px;
+}
+
+.contactos02 table img{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;   
+}
+
+.contactos02 th, 
+.tblmiperfil th , 
+.tbldetalles th{
+    text-align: right;
+}
+
+.contactos02 td, 
+.tblmiperfil td, 
+.tbldetalles td {
+    text-align: left;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+}
+
+.contactos02 table a{
+    text-decoration: none;
+    color: rgba(255,255,255, 1);
+    margin-left: 1cm;
+}
+
+.contactos02 button{
+    margin-left: 72.5%;
+    outline: 0;
+    height: 30px;
+    font-size: 22px;
+    border: 0;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.001);
+    border-bottom: solid 1px white;
+    margin-top: 20px;
+}
+
+.agregarcontacto02, 
+.miperfil02{
+    margin-top: 40px;
+    background-color: rgba(0, 0, 0, 0.8);
+    align-items: center;
+    align-content: center;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    width: 50%;
+}
+
+.formulario h4{
+    color: rgba(255,255,255, 1);
+    font-style: italic;
+    margin-bottom: 0%;
+    margin-top: -10px;
+}
+
+.agregarcontacto03 {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.agregarcontacto03 button, 
+.miperfil02 button{
+    outline: 0;
+    height: 30px;
+    font-size: 22px;
+    border: 0;
+    background: rgba(255, 255, 255, 0.001);
+    border-bottom: solid 1px white;
+    margin-top: 20px;
+    color: rgba(255,255,255, 1);
+}
+
+.miperfil02 img{
+    width: 18%;
+    margin-top: -75px;
+    margin-bottom: 20px;
+}
+
+.miperfil02 h3, 
+.detalles02 h3{
+    color: rgba(255,255,255, 1);
+    margin-top: -5px;
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+.tblmiperfil h4, 
+.tbldetalles h4{ 
+    margin-left: 30px;
+    margin-top: 5px;
+    margin-right: 0;
+    margin-bottom: 5px;
+}
+
+.detalles02{
+    margin-top: 40px;
+    background-color: rgba(0, 0, 0, 0.8);
+    align-items: center;
+    align-content: center;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    width: 50%;
+} 
+
+.detalles02 img{
+    width: 25%;
+    border-radius: 50%;
+    margin-top: -75px;
+    margin-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
